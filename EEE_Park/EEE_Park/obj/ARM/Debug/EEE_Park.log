@@ -1,0 +1,122 @@
+﻿  Validating sources
+  Copying sources remotely to '10.144.69.87'
+  Validating architecture
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  LPDetect.cpp
+/usr/local/include/opencv4/opencv2/core/fast_math.hpp(350,21): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/core/fast_math.hpp(350,21): warning :      return i - (i > value);
+/usr/local/include/opencv4/opencv2/core/fast_math.hpp(350,21): warning :                      ^~~~~
+/usr/local/include/opencv4/opencv2/core/fast_math.hpp(370,21): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/core/fast_math.hpp(370,21): warning :      return i + (i < value);
+/usr/local/include/opencv4/opencv2/core/fast_math.hpp(370,21): warning :                      ^~~~~
+/usr/local/include/opencv4/opencv2/core/operations.hpp(387,46): warning : conversion from ‘unsigned int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/core/operations.hpp(388,82): warning : conversion from ‘uint64’ {aka ‘long long unsigned int’} to ‘double’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/flann/kmeans_index.h(60,98): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
+/usr/local/include/opencv4/opencv2/flann/kmeans_index.h(60,98): warning :                        flann_centers_init_t centers_init = FLANN_CENTERS_RANDOM, float cb_index = 0.2 )
+/usr/local/include/opencv4/opencv2/flann/kmeans_index.h(60,98): warning :                                                                                                   ^~~
+/usr/local/include/opencv4/opencv2/flann/composite_index.h(50,101): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
+/usr/local/include/opencv4/opencv2/flann/composite_index.h(50,101): warning :                           flann_centers_init_t centers_init = FLANN_CENTERS_RANDOM, float cb_index = 0.2 )
+/usr/local/include/opencv4/opencv2/flann/composite_index.h(50,101): warning :                                                                                                      ^~~
+/usr/local/include/opencv4/opencv2/flann/timer.h(81,39): warning : conversion from ‘int64’ {aka ‘long long int’} to ‘double’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/flann/autotuned_index.h(58,51): warning : conversion from ‘double’ to ‘float’ changes value from ‘8.0000000000000004e-1’ to ‘8.00000012e-1f’ [-Wfloat-conversion]
+/usr/local/include/opencv4/opencv2/flann/autotuned_index.h(58,51): warning :      AutotunedIndexParams(float target_precision = 0.8, float build_weight = 0.01, float memory_weight = 0, float sample_fraction = 0.1)
+/usr/local/include/opencv4/opencv2/flann/autotuned_index.h(58,51): warning :                                                    ^~~
+/usr/local/include/opencv4/opencv2/flann/autotuned_index.h(58,77): warning : conversion from ‘double’ to ‘float’ changes value from ‘1.0e-2’ to ‘9.99999978e-3f’ [-Wfloat-conversion]
+/usr/local/include/opencv4/opencv2/flann/autotuned_index.h(58,77): warning :      AutotunedIndexParams(float target_precision = 0.8, float build_weight = 0.01, float memory_weight = 0, float sample_fraction = 0.1)
+/usr/local/include/opencv4/opencv2/flann/autotuned_index.h(58,77): warning :                                                                              ^~~~
+/usr/local/include/opencv4/opencv2/flann/autotuned_index.h(58,132): warning : conversion from ‘double’ to ‘float’ changes value from ‘1.0000000000000001e-1’ to ‘1.00000001e-1f’ [-Wfloat-conversion]
+/usr/local/include/opencv4/opencv2/flann/autotuned_index.h(58,132): warning :      AutotunedIndexParams(float target_precision = 0.8, float build_weight = 0.01, float memory_weight = 0, float sample_fraction = 0.1)
+/usr/local/include/opencv4/opencv2/flann/autotuned_index.h(58,132): warning :                                                                                                                                     ^~~
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(185,36): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(185,36): warning :      for (float x = 0; x < src_size.width; ++x)
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(185,36): warning :                            ~~~~~~~~~^~~~~
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(185,36): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(185,36): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :              xmap.at<float>(y, x) = u - src_tl.x;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :              ymap.at<float>(y, x) = v - src_tl.y;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :              xmap.at<float>(y, x) = u - src_tl.x;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :              ymap.at<float>(y, x) = v - src_tl.y;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :              xmap.at<float>(y, x) = u - src_tl.x;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :              ymap.at<float>(y, x) = v - src_tl.y;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :              xmap.at<float>(y, x) = u - src_tl.x;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :              ymap.at<float>(y, x) = v - src_tl.y;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :              xmap.at<float>(y, x) = u - src_tl.x;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :              ymap.at<float>(y, x) = v - src_tl.y;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :              xmap.at<float>(y, x) = u - src_tl.x;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :              ymap.at<float>(y, x) = v - src_tl.y;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :              xmap.at<float>(y, x) = u - src_tl.x;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :              ymap.at<float>(y, x) = v - src_tl.y;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :              xmap.at<float>(y, x) = u - src_tl.x;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :              ymap.at<float>(y, x) = v - src_tl.y;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :              xmap.at<float>(y, x) = u - src_tl.x;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :              ymap.at<float>(y, x) = v - src_tl.y;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :              xmap.at<float>(y, x) = u - src_tl.x;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :              ymap.at<float>(y, x) = v - src_tl.y;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :              xmap.at<float>(y, x) = u - src_tl.x;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :              ymap.at<float>(y, x) = v - src_tl.y;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :              xmap.at<float>(y, x) = u - src_tl.x;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :              ymap.at<float>(y, x) = v - src_tl.y;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :              xmap.at<float>(y, x) = u - src_tl.x;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :              ymap.at<float>(y, x) = v - src_tl.y;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :              xmap.at<float>(y, x) = u - src_tl.x;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(128,47): warning :                                         ~~~~~~~^
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :              ymap.at<float>(y, x) = v - src_tl.y;
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :                                         ~~~~~~~^
+  Linking objects
+  EEE_Park.vcxproj -> C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\bin\ARM\Debug\EEE_Park.out
