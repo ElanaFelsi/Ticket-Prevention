@@ -1,10 +1,11 @@
 ﻿  Validating sources
-  Copying sources remotely to '10.144.69.87'
+  Copying sources remotely to '10.144.71.33'
   Validating architecture
   Validating architecture
   Starting remote build
   Compiling sources:
-  LPDetect.cpp
+  Source.cpp
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(18): warning : ignoring #pragma warning  [-Wunknown-pragmas]
 /usr/local/include/opencv4/opencv2/core/fast_math.hpp(350,21): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
 /usr/local/include/opencv4/opencv2/core/fast_math.hpp(350,21): warning :      return i - (i > value);
 /usr/local/include/opencv4/opencv2/core/fast_math.hpp(350,21): warning :                      ^~~~~
@@ -29,6 +30,33 @@
 /usr/local/include/opencv4/opencv2/flann/autotuned_index.h(58,132): warning : conversion from ‘double’ to ‘float’ changes value from ‘1.0000000000000001e-1’ to ‘1.00000001e-1f’ [-Wfloat-conversion]
 /usr/local/include/opencv4/opencv2/flann/autotuned_index.h(58,132): warning :      AutotunedIndexParams(float target_precision = 0.8, float build_weight = 0.01, float memory_weight = 0, float sample_fraction = 0.1)
 /usr/local/include/opencv4/opencv2/flann/autotuned_index.h(58,132): warning :                                                                                                                                     ^~~
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(88,56): warning : conversion from ‘double’ to ‘int’ may change value [-Wfloat-conversion]
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(88,56): warning :   intHorizontalLinePosition = intHorizontalLinePosition * 1.40;
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(88,56): warning :                               ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(234,33): warning : conversion from ‘int’ to ‘char’ may change value [-Wconversion]
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(110,6): warning : unused variable ‘numFrame’ [-Wunused-variable]
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(110,6): warning :   int numFrame = 10;
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(110,6): warning :       ^~~~~~~~
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(295,8): warning : unused variable ‘prevFrameIndex’ [-Wunused-variable]
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(295,8): warning :     int prevFrameIndex = (int)currentFrameBlob.centerPositions.size() - 2;
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(295,8): warning :         ^~~~~~~~~~~~~~
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(297,8): warning : unused variable ‘prev2FrameIndex’ [-Wunused-variable]
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(297,8): warning :     int prev2FrameIndex = (int)currentFrameBlob.centerPositions.size() - 3;
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(297,8): warning :         ^~~~~~~~~~~~~~~
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(322,8): warning : unused variable ‘prevFrameIndex’ [-Wunused-variable]
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(322,8): warning :     int prevFrameIndex = (int)currentFrameBlob.centerPositions.size() - 2;
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(322,8): warning :         ^~~~~~~~~~~~~~
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(324,8): warning : unused variable ‘prev2FrameIndex’ [-Wunused-variable]
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(324,8): warning :     int prev2FrameIndex = (int)currentFrameBlob.centerPositions.size() - 3;
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(324,8): warning :         ^~~~~~~~~~~~~~~
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(378,6): warning : unused variable ‘intX’ [-Wunused-variable]
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(378,6): warning :   int intX = (point1.x - point2.x);
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(378,6): warning :       ^~~~
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(459,6): warning : unused variable ‘numFrame’ [-Wunused-variable]
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(459,6): warning :   int numFrame = 4;
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(459,6): warning :       ^~~~~~~~
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(522,11): warning : variable ‘textSize’ set but not used [-Wunused-but-set-variable]
+C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\Source.cpp(526,11): warning : variable ‘textSize1’ set but not used [-Wunused-but-set-variable]
 /usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(185,36): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
 /usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(185,36): warning :      for (float x = 0; x < src_size.width; ++x)
 /usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(185,36): warning :                            ~~~~~~~~~^~~~~
@@ -118,5 +146,24 @@
 /usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
 /usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :              ymap.at<float>(y, x) = v - src_tl.y;
 /usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp(129,47): warning :                                         ~~~~~~~^
+/usr/include/c++/8/bits/stl_vector.h(1085,4): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<Blob*, std::vector<Blob> >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_vector.h(1085,4): message :     _M_realloc_insert(end(), __x);
+/usr/include/c++/8/bits/stl_vector.h(1085,4): message :     ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/vector.tcc(413,7): message : parameter passing for argument of type ‘std::vector<Blob>::iterator’ {aka ‘__gnu_cxx::__normal_iterator<Blob*, std::vector<Blob> >’} changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(311,2): message : parameter passing for argument of type ‘std::move_iterator<Blob*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(287,5): message : parameter passing for argument of type ‘std::move_iterator<Blob*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(287,5): message :      __uninitialized_copy_a(_InputIterator __first, _InputIterator __last,
+/usr/include/c++/8/bits/stl_uninitialized.h(287,5): message :      ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_uninitialized.h(287,5): message : parameter passing for argument of type ‘std::move_iterator<Blob*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(289,37): message : parameter passing for argument of type ‘std::move_iterator<Blob*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(115,5): message : parameter passing for argument of type ‘std::move_iterator<Blob*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(115,5): message :      uninitialized_copy(_InputIterator __first, _InputIterator __last,
+/usr/include/c++/8/bits/stl_uninitialized.h(115,5): message :      ^~~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_uninitialized.h(115,5): message : parameter passing for argument of type ‘std::move_iterator<Blob*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(134,15): message : parameter passing for argument of type ‘std::move_iterator<Blob*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(76,9): message : parameter passing for argument of type ‘std::move_iterator<Blob*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(76,9): message :          __uninit_copy(_InputIterator __first, _InputIterator __last,
+/usr/include/c++/8/bits/stl_uninitialized.h(76,9): message :          ^~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_uninitialized.h(76,9): message : parameter passing for argument of type ‘std::move_iterator<Blob*>’ changed in GCC 7.1
   Linking objects
   EEE_Park.vcxproj -> C:\Users\elia\source\repos\final-hackathon-elana-elia-esther\EEE_Park\EEE_Park\bin\ARM\Debug\EEE_Park.out

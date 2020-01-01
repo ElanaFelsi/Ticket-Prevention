@@ -22,12 +22,12 @@ void carLeft() {
 //	const char* command = str.c_str();
 //	system(command);
 //}
-//bool isCandidate(string lp, string img_name, const string num_camera) {
-//	string str = "python3 checkIfCandidate.py " + lp + " " + img_name +" "+ num_camera + " ";
-//	const char* command = str.c_str();
-//	system(command);
-//	//sendWarning(lp)
-//}
+bool isCandidate(string lp, string img_name, const string num_camera) {
+	string str = "python3 checkIfCandidate.py " + lp + " " + img_name +" "+ num_camera + " ";
+	const char* command = str.c_str();
+	system(command);
+	//sendWarning(lp)
+}
 //void carFadeIn() {
 //	string lp = "1234567";
 //	string img_path = "C:/Users/USER/Desktop/LP_RECOG/LP_TRY/LP_TRY/2car.png";

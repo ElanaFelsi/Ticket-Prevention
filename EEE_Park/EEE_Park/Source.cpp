@@ -22,10 +22,10 @@ using namespace std;
 #include<iostream>
 //#include<conio.h>  // remove this line if not using Windows OS
 #define SHOW_STEPS // un-comment | comment this line to show steps or not
-
+#define VIDEO_NAME "in.mp4"
 // const global variables
 //#include "scalarsColors.h"
-
+bool sendMessageOfCarLeft = false;
 // function prototypes
 void matchCurrentFrameBlobsToExistingBlobs(std::vector<Blob>& existingBlobs, std::vector<Blob>& currentFrameBlobs);
 void addBlobToExistingBlobs(Blob& currentFrameBlob, std::vector<Blob>& existingBlobs, int& intIndex);
@@ -64,15 +64,15 @@ int main(void) {
 
 
 
-	capVideo.open("in.mp4");/*HSCC Interstate Highway Surveillance System - TEST VIDEO*/
+	capVideo.open(VIDEO_NAME);/*HSCC Interstate Highway Surveillance System - TEST VIDEO*/
 	//capVideo.open(0);
-	if (!capVideo.isOpened()) {                                                 // if unable to open video file
+	/*if (!capVideo.isOpened()) {                                                 // if unable to open video file
 		std::cout << "error reading video file" << std::endl << std::endl;      // show error message
 		//_getch();																// remove this line if not using Windows OS
 		return(0);                                                              // and exit program
-	}
-	/*capVideo >> imgFrame1;
-	capVideo >> imgFrame2;*/
+	}*/
+	capVideo >> imgFrame1;
+	capVideo >> imgFrame2;
 
 	if (capVideo.get(cv::CAP_PROP_FRAME_COUNT) < 2) {
 		std::cout << "error: video file must have at least two frames";
@@ -457,6 +457,7 @@ std::string getName() {
 }
 void drawBlobInfoOnImage(std::vector<Blob>& blobs, cv::Mat& imgFrame2Copy) {
 	int numFrame = 4;
+	
 	for (unsigned int i = 0; i < blobs.size(); i++) {
 		if (blobs[i].blnStillBeingTracked == true) {
 			if (blobs[i].passedLine == true) {
@@ -474,8 +475,9 @@ void drawBlobInfoOnImage(std::vector<Blob>& blobs, cv::Mat& imgFrame2Copy) {
 					cv::Mat croppedImage = imgFrame2Copy(myROI);
 					//sprintf(name, "crop%02d.jpg", idTicket);
 					std::string LP = getLicensePlate(croppedImage);
-					if(!LP.empty())
-						isCandidate(LP, "in_" + name + "_" + std::to_string(idTicket) + ".jpg");
+					if (LP.empty())
+						LP = "1222222";
+					isCandidate(LP, "in_" + name + "_" + std::to_string(idTicket) + ".jpg");
 					//cv::imwrite("crop_" + name + "_" + std::to_string(idTicket) + ".jpg", croppedImage);
 					++idTicket;
 
@@ -491,7 +493,11 @@ void drawBlobInfoOnImage(std::vector<Blob>& blobs, cv::Mat& imgFrame2Copy) {
 			else if (blobs[i].checkOccupied == true) {
 				cv::rectangle(imgFrame2Copy, blobs[i].currentBoundingRect, SCALAR_GREEN, 2);
 				std::string strOut = getName();
-				carLeft();
+				if (!sendMessageOfCarLeft) {
+					carLeft();
+					sendMessageOfCarLeft = true;
+				}
+				
 			}
 			else {
 				cv::rectangle(imgFrame2Copy, blobs[i].currentBoundingRect, SCALAR_RED, 2);
