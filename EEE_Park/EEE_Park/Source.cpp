@@ -22,7 +22,7 @@ using namespace std;
 #include<iostream>
 //#include<conio.h>  // remove this line if not using Windows OS
 #define SHOW_STEPS // un-comment | comment this line to show steps or not
-#define VIDEO_NAME "in.mp4"
+#define VIDEO_NAME "aa260.mp4"
 // const global variables
 //#include "scalarsColors.h"
 bool sendMessageOfCarLeft = false;
@@ -217,7 +217,7 @@ int main(void) {
 
 		imgFrame1 = imgFrame2.clone();	// move frame 1 up to where frame 2 is
 
-		if ((capVideo.get(cv::CAP_PROP_POS_FRAMES) + 1) < capVideo.get(cv::CAP_PROP_FRAME_COUNT)) {
+		if ((capVideo.get(cv::CAP_PROP_POS_FRAMES) + 20) < capVideo.get(cv::CAP_PROP_FRAME_COUNT)) {
 			//std::cout << capVideo.get(cv::CAP_PROP_POS_FRAMES) + 1 << " " << capVideo.get(cv::CAP_PROP_FRAME_COUNT) << "\n";
 			capVideo.read(imgFrame2);
 			//cv::imshow("imgFrame2", imgFrame2);
@@ -476,7 +476,7 @@ void drawBlobInfoOnImage(std::vector<Blob>& blobs, cv::Mat& imgFrame2Copy) {
 					//sprintf(name, "crop%02d.jpg", idTicket);
 					std::string LP = getLicensePlate(croppedImage);
 					if (LP.empty())
-						LP = "1222222";
+						LP = "01234589";
 					isCandidate(LP, "in_" + name + "_" + std::to_string(idTicket) + ".jpg");
 					//cv::imwrite("crop_" + name + "_" + std::to_string(idTicket) + ".jpg", croppedImage);
 					++idTicket;
