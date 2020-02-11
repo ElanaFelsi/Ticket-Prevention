@@ -3,8 +3,8 @@ from twilio.rest import Client
 # DANGER! This is insecure. See http://twil.io/secure
 from queries import get_phone_number, get_candidate
 
-account_sid = 'AC43660a99aa57a3df782811ac0ae29cb2'
-auth_token = '4518010f4a141959451476e23a65c85a'
+account_sid = ''
+auth_token = ''
 client = Client(account_sid, auth_token)
 
 def warning_sms(lp):
